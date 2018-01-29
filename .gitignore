@@ -1,0 +1,6 @@
+# specify all the ignored files here
+# all these files will not appear on your repository
+node_modules/*
+vendor/*
+storage/*
+.env
