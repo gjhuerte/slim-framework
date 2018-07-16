@@ -4,7 +4,7 @@
 // set_error_handler('Core\Error::errorHandler');
 // set_exception_handler('Core\Error::exceptionHandler');
 
-$router = new app\Core\Routing;
+$router = new App\Core\Routing;
 
 $router->add('', ['controller' => 'Home', 'action' => 'index']);
 $router->add('{controller}/{action}');

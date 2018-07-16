@@ -2,14 +2,14 @@
 
 namespace App\Controllers;
 
-use \Core\View;
+use \App\Core\View;
 
 /**
  * Home controller
  *
  * PHP version 5.4
  */
-class Home extends \Core\Controller
+class Home extends \App\Core\Controller
 {
 
     /**
